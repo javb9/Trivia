@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    min-width: 25% !important;
+    min-height: 75% !important;
+    position: absolute;
+}
+
+.div-win{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.div-win p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 13px !important;
+}
+
+.correct-inactive{
+    font-size: 20px;
+    color: #EA8282;
+}
+
+.correct-active{
+    font-size: 20px;
+    color: #60BF88;
+}
+
+.box-body{
+    margin: 0px;
+    border-radius: 24px;
+    min-width: 100% !important;
+    max-height: 100% !important;
+    background-color: #fff;
+    position:absolute;
+}
+
+.title{
+    margin: 0;
+    color: #F2F2F2;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+p, h1{
+    color: #2F527B;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+p{
+    color: #2F527B;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.text-option{
+    font-size: 12px !important;
+}
+
+.content-box{
+    margin-top: -20px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 5px;
+}
+
+button{
+    font-family: Poppins !important;
+    padding: 15px !important;
+    color: #F2F2F2 !important;
+    border-radius: 12px;
+    background: #F9A826;
+    box-shadow: 0px 2px 4px 0px rgba(252, 168, 47, 0.40);
+}
+
+li:hover{
+    border: 2px solid #F9A826 !important;
+    color: #F2F2F2 !important;
+    background-color: #F9A826;
+}
+
+.active{
+    border: 2px solid #F9A826 !important;
+    color: #F2F2F2 !important;
+    background-color: #F9A826 !important;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    cursor:pointer !important;
+    border-radius: 12px;
+    border: 2px solid rgba(96, 102, 208, 0.70);
+    background: #FFF;
+    margin-bottom: 0.5rem;
+
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgba(96, 102, 208, 0.80) !important;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.correct{
+    border-radius: 12px;
+    background: #60BF88;
+    color: #FFF !important;
+    border-color: #60BF88;
+}
+
+.incorrect{
+    border-radius: 12px;
+    background: #EA8282;
+    color: #FFF !important;
+    border-color: #EA8282;
+}
+.img-logo{
+    margin-right: 20px;
+    margin-top: -15%;
+    height: 25%;
+    width: 25%;
+}
+
+@media only screen and (max-width: 3000px) {
+    .title{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px !important;
+    }
+    li{
+        margin-bottom: 1rem !important;
+        font-size: 15px;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    .text-option{
+        font-size: 15px !important;
+    }
+}
+
+
+@media only screen and (max-width: 999px) {
+    .box{
+        min-width: 40% !important;
+        min-height: 75% !important;
+    }
+    p{
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .box{
+        min-width: 50% !important;
+        min-height: 75% !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .box{
+        min-width: 50% !important;
+        min-height: 75% !important;
+    }
+    p{
+        font-size: 15px !important;
+    }
+    li{
+        margin-bottom: 0.5rem !important;
+        font-size: 12px;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    }
+    .text-option{
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box{
+        min-width: 60% !important;
+        min-height: 75% !important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .title{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .box{
+        min-height: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .box{
+        min-width: 90% !important;
+        min-height: 90% !important;
+    }
+}
